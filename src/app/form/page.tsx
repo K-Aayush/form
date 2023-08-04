@@ -4,7 +4,7 @@ const Form = () => {
     return (
         <div className='container mx-auto py-40'>
             <div className='flex flex-wrap w-4/12 mx-auto mb-6 bg-gray-100 rounded-xl shadow-lg overflow-hidden '>
-                <div className='w-full py-4 px-3'>
+                <div className='w-full py-4 px-4'>
                     <h1 className='text-lg font-semibold'>Form</h1>
                     <form action="#" className='mt-2'>
                         <div className='flex gap-2'>
@@ -12,13 +12,13 @@ const Form = () => {
                                 <label className="text-gray-900 text-sm font-medium">
                                     First Name
                                 </label>
-                                <input className="bg-gray-100 text-gray-900 border border-gray-400 rounded p-2.5" type="text" placeholder="FirstName" />
+                                <input className="w-full bg-gray-100 text-gray-900 border border-gray-400 rounded p-2.5" type="text" placeholder="FirstName" />
                             </div>
                             <div className='flex flex-col gap-2'>
                                 <label className="text-gray-900 text-sm font-medium">
                                     Last Name
                                 </label>
-                                <input className="bg-gray-100 text-gray-900 border border-gray-400 rounded p-2.5" type="text" placeholder="LastName" />
+                                <input className="w-full bg-gray-100 text-gray-900 border border-gray-400 rounded p-2.5" type="text" placeholder="LastName" />
                             </div>
                         </div>
 
